@@ -1,0 +1,14 @@
+# Define here the models for your scraped items
+#
+# See documentation in:
+# https://docs.scrapy.org/en/latest/topics/items.html
+
+import scrapy
+
+
+class WebcrawlerItem(scrapy.Item):
+    title = scrapy.Field()
+    h1 = scrapy.Field()
+    shoe_kind = scrapy.Field()
+    shoe_name = scrapy.Field()
+    shoe_price = scrapy.Field()
